@@ -1,0 +1,17 @@
+package Munjea;
+import java.awt.event.*;
+import java.awt.*;
+
+import javax.swing.*;
+import javax.swing.event.*;
+public class m08 extends JFrame{
+	public m08() {
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		Container c = getContentPane();
+		c.setLayout(new FlowLayout());
+	}
+	
+	public static void main(String[] args) {
+		new m08();
+	}
+}
